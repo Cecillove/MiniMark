@@ -98,7 +98,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="833" y="1023"/>
+            <point key="canvasLocation" x="400" y="1051"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -200,7 +200,7 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6aE-CO-gGg">
                                                     <rect key="frame" x="44" y="0.0" width="25" height="25"/>
                                                     <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="1"/>
-                                                    <state key="normal" title="Button" image="deleteBtn"/>
+                                                    <state key="normal" title="Button" image="Remove"/>
                                                     <connections>
                                                         <action selector="doDeleteBtn:" destination="Yas-Pe-hjq" eventType="touchUpInside" id="wjt-dv-Kbd"/>
                                                     </connections>
@@ -267,7 +267,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1uS-fz-g0k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="400" y="1023"/>
+            <point key="canvasLocation" x="0.0" y="1051"/>
         </scene>
         <!--显示网站-->
         <scene sceneID="1Np-E0-Lwp">
@@ -586,7 +586,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29s-3t-7ls" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1713" y="-343"/>
+            <point key="canvasLocation" x="1555" y="-343"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pmZ-KZ-mn1">
@@ -608,7 +608,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="deleteBtn" width="256" height="256"/>
+        <image name="Remove" width="128" height="128"/>
         <image name="plusBtn" width="60" height="60"/>
     </resources>
 </document>

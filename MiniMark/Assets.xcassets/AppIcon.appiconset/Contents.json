@@ -1,33 +1,39 @@
 {
   "images" : [
     {
-      "idiom" : "iphone",
       "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "www.ico.la_67c98996ef3e3e98b35a1c83da3e7171_58X58.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "www.ico.la_67c98996ef3e3e98b35a1c83da3e7171_87X87.png",
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "www.ico.la_67c98996ef3e3e98b35a1c83da3e7171_80X80.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "www.ico.la_67c98996ef3e3e98b35a1c83da3e7171_120X120.png",
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "www.ico.la_67c98996ef3e3e98b35a1c83da3e7171_120X120-1.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "www.ico.la_67c98996ef3e3e98b35a1c83da3e7171_180X180.png",
       "scale" : "3x"
     }
   ],

@@ -13,6 +13,8 @@
 #import "LMAppController.h"
 #import "AppListTableViewController.h"
 
+#define angelToRandian(x) ((x)/180.0*M_PI)
+
 NS_ENUM(NSInteger, CellState) {
     //右上角编辑按钮的两种状态；
     //正常的状态，按钮显示“编辑”;
@@ -111,15 +113,25 @@ static NSString * const reuseIdentifier = @"collectionCell";
     cell.imageView.image = icon;
     cell.label.text = myapp.name;
     
-    //设置删除按钮
     // 点击编辑按钮触发事件
     if (CellState == NormalState) {
-        //正常情况下，所有删除按钮都隐藏；
-        cell.deleteBtn.hidden = true;
-    } else {
+        // 正常情况下，所有删除按钮都隐藏；
+        cell.deleteBtn.hidden = YES;
+        // 停止抖动动画
+        [cell.imageView.layer removeAllAnimations];
+    } else if (CellState == DeleteState) {
         //可删除情况下；
         cell.deleteBtn.hidden = NO;
-        
+        [cell addSubview:cell.deleteBtn];
+        [cell.deleteBtn bringSubviewToFront:self.myCollectionView];
+        // 抖动动画
+        CAKeyframeAnimation *anim = [CAKeyframeAnimation animation];
+        anim.keyPath = @"transform.rotation";
+        anim.values = @[@(angelToRandian(-7)),@(angelToRandian(7)),@(angelToRandian(-7))];
+        anim.repeatCount = MAXFLOAT;
+        anim.duration = 0.2;
+        [cell.imageView.layer addAnimation:anim forKey:nil];
+        [cell.deleteBtn.layer addAnimation:anim forKey:nil];
     }
     return cell;
 }
@@ -131,8 +143,10 @@ static NSString * const reuseIdentifier = @"collectionCell";
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    MyApp *myapp = self.appArray[indexPath.row];
-    [[LMAppController sharedInstance] openAppWithBundleIdentifier:myapp.bundleIdentifier];
+    if (CellState == NormalState) {
+        MyApp *myapp = self.appArray[indexPath.row];
+        [[LMAppController sharedInstance] openAppWithBundleIdentifier:myapp.bundleIdentifier];
+    }
 }
 
 /*
@@ -171,12 +185,20 @@ static NSString * const reuseIdentifier = @"collectionCell";
         CellState = DeleteState;
         self.trashBtn.title = @"完成";
         
-        //循环遍历整个CollectionView；
-        for(collectionCell *cell in self.myCollectionView.visibleCells){
-            [cell addSubview:cell.deleteBtn];
-            [cell.deleteBtn bringSubviewToFront:self.myCollectionView];
-            [cell.deleteBtn setHidden:NO];
-        }
+//        //循环遍历整个CollectionView；
+//        for(collectionCell *cell in self.myCollectionView.visibleCells){
+//            [cell addSubview:cell.deleteBtn];
+//            [cell.deleteBtn bringSubviewToFront:self.myCollectionView];
+//            [cell.deleteBtn setHidden:NO];
+//            
+//            // 抖动动画
+//            CAKeyframeAnimation *anim = [CAKeyframeAnimation animation];
+//            anim.keyPath = @"transform.rotation";
+//            anim.values = @[@(angelToRandian(-7)),@(angelToRandian(7)),@(angelToRandian(-7))];
+//            anim.repeatCount = MAXFLOAT;
+//            anim.duration = 0.2;
+//            [cell.imageView.layer addAnimation:anim forKey:nil];
+//        }
     }
     else if (CellState == DeleteState) {
         CellState = NormalState;
