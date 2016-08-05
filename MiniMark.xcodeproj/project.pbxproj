@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		916E35D41D519334000B5C26 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 916E35D31D519334000B5C26 /* libsqlite3.tbd */; };
+		916E35EE1D51DC80000B5C26 /* LMApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E35EB1D51DC80000B5C26 /* LMApp.m */; };
+		916E35EF1D51DC80000B5C26 /* LMAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E35ED1D51DC80000B5C26 /* LMAppController.m */; };
+		916E35F51D51F1F7000B5C26 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E35F21D51F1F7000B5C26 /* NJKWebViewProgress.m */; };
+		916E35F61D51F1F7000B5C26 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E35F41D51F1F7000B5C26 /* NJKWebViewProgressView.m */; };
+		916E36001D520272000B5C26 /* logo_120*120.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35F81D520272000B5C26 /* logo_120*120.png */; };
+		916E36011D520272000B5C26 /* logo_180*180.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35F91D520272000B5C26 /* logo_180*180.png */; };
+		916E36021D520272000B5C26 /* plus_60*60.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35FA1D520272000B5C26 /* plus_60*60.png */; };
+		916E36031D520272000B5C26 /* plus_120*120.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35FB1D520272000B5C26 /* plus_120*120.png */; };
+		916E36041D520272000B5C26 /* plus_180*180.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35FC1D520272000B5C26 /* plus_180*180.png */; };
+		916E36051D520272000B5C26 /* trash_60*60.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35FD1D520272000B5C26 /* trash_60*60.png */; };
+		916E36061D520272000B5C26 /* trash_120*120.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35FE1D520272000B5C26 /* trash_120*120.png */; };
+		916E36071D520272000B5C26 /* trash_180*180.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35FF1D520272000B5C26 /* trash_180*180.png */; };
+		916E36261D52E0BC000B5C26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E360B1D52E0BC000B5C26 /* AppDelegate.m */; };
+		916E36271D52E0BC000B5C26 /* AppListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E360D1D52E0BC000B5C26 /* AppListTableViewController.m */; };
+		916E36281D52E0BC000B5C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916E360E1D52E0BC000B5C26 /* Assets.xcassets */; };
+		916E362A1D52E0BC000B5C26 /* DataOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36111D52E0BC000B5C26 /* DataOperator.m */; };
+		916E362B1D52E0BC000B5C26 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 916E36121D52E0BC000B5C26 /* Info.plist */; };
+		916E362C1D52E0BC000B5C26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36131D52E0BC000B5C26 /* main.m */; };
+		916E362D1D52E0BC000B5C26 /* MyApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36151D52E0BC000B5C26 /* MyApp.m */; };
+		916E362E1D52E0BC000B5C26 /* MyAppList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 916E36161D52E0BC000B5C26 /* MyAppList.plist */; };
+		916E362F1D52E0BC000B5C26 /* MyAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36181D52E0BC000B5C26 /* MyAppViewController.m */; };
+		916E36301D52E0BC000B5C26 /* WebSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E361A1D52E0BC000B5C26 /* WebSite.m */; };
+		916E36311D52E0BC000B5C26 /* WebsiteAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E361C1D52E0BC000B5C26 /* WebsiteAddViewController.m */; };
+		916E36321D52E0BC000B5C26 /* WebSiteCategory.plist in Resources */ = {isa = PBXBuildFile; fileRef = 916E361D1D52E0BC000B5C26 /* WebSiteCategory.plist */; };
+		916E36331D52E0BC000B5C26 /* WebsiteEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E361F1D52E0BC000B5C26 /* WebsiteEditorViewController.m */; };
+		916E36341D52E0BC000B5C26 /* WebsiteModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36211D52E0BC000B5C26 /* WebsiteModifyViewController.m */; };
+		916E36351D52E0BC000B5C26 /* WebsiteShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36231D52E0BC000B5C26 /* WebsiteShowViewController.m */; };
+		916E36361D52E0BC000B5C26 /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36251D52E0BC000B5C26 /* WebsiteViewController.m */; };
+		916E36391D52E16D000B5C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916E36371D52E16D000B5C26 /* LaunchScreen.storyboard */; };
+		916E363C1D52E180000B5C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916E363A1D52E180000B5C26 /* Main.storyboard */; };
+		918A20841D52EAEF00955F6F /* MyAppCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A20831D52EAEF00955F6F /* MyAppCollectionViewController.m */; };
+		918A20871D52FF9100955F6F /* collectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A20861D52FF9100955F6F /* collectionCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		916E35A71D5188F2000B5C26 /* MiniMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		916E35D31D519334000B5C26 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		916E35EA1D51DC80000B5C26 /* LMApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMApp.h; path = LaunchServicesApis/LMApp.h; sourceTree = "<group>"; };
+		916E35EB1D51DC80000B5C26 /* LMApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMApp.m; path = LaunchServicesApis/LMApp.m; sourceTree = "<group>"; };
+		916E35EC1D51DC80000B5C26 /* LMAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMAppController.h; path = LaunchServicesApis/LMAppController.h; sourceTree = "<group>"; };
+		916E35ED1D51DC80000B5C26 /* LMAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMAppController.m; path = LaunchServicesApis/LMAppController.m; sourceTree = "<group>"; };
+		916E35F11D51F1F7000B5C26 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgress.h; path = WebViewProgressApis/NJKWebViewProgress.h; sourceTree = SOURCE_ROOT; };
+		916E35F21D51F1F7000B5C26 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgress.m; path = WebViewProgressApis/NJKWebViewProgress.m; sourceTree = SOURCE_ROOT; };
+		916E35F31D51F1F7000B5C26 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = WebViewProgressApis/NJKWebViewProgressView.h; sourceTree = SOURCE_ROOT; };
+		916E35F41D51F1F7000B5C26 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = WebViewProgressApis/NJKWebViewProgressView.m; sourceTree = SOURCE_ROOT; };
+		916E35F81D520272000B5C26 /* logo_120*120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_120*120.png"; path = "Images/logo_120*120.png"; sourceTree = "<group>"; };
+		916E35F91D520272000B5C26 /* logo_180*180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_180*180.png"; path = "Images/logo_180*180.png"; sourceTree = "<group>"; };
+		916E35FA1D520272000B5C26 /* plus_60*60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus_60*60.png"; path = "Images/plus_60*60.png"; sourceTree = "<group>"; };
+		916E35FB1D520272000B5C26 /* plus_120*120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus_120*120.png"; path = "Images/plus_120*120.png"; sourceTree = "<group>"; };
+		916E35FC1D520272000B5C26 /* plus_180*180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus_180*180.png"; path = "Images/plus_180*180.png"; sourceTree = "<group>"; };
+		916E35FD1D520272000B5C26 /* trash_60*60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trash_60*60.png"; path = "Images/trash_60*60.png"; sourceTree = "<group>"; };
+		916E35FE1D520272000B5C26 /* trash_120*120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trash_120*120.png"; path = "Images/trash_120*120.png"; sourceTree = "<group>"; };
+		916E35FF1D520272000B5C26 /* trash_180*180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trash_180*180.png"; path = "Images/trash_180*180.png"; sourceTree = "<group>"; };
+		916E360A1D52E0BC000B5C26 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MiniMark/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		916E360B1D52E0BC000B5C26 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MiniMark/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		916E360C1D52E0BC000B5C26 /* AppListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppListTableViewController.h; path = MiniMark/AppListTableViewController.h; sourceTree = SOURCE_ROOT; };
+		916E360D1D52E0BC000B5C26 /* AppListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppListTableViewController.m; path = MiniMark/AppListTableViewController.m; sourceTree = SOURCE_ROOT; };
+		916E360E1D52E0BC000B5C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MiniMark/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		916E36101D52E0BC000B5C26 /* DataOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataOperator.h; path = MiniMark/DataOperator.h; sourceTree = SOURCE_ROOT; };
+		916E36111D52E0BC000B5C26 /* DataOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataOperator.m; path = MiniMark/DataOperator.m; sourceTree = SOURCE_ROOT; };
+		916E36121D52E0BC000B5C26 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MiniMark/Info.plist; sourceTree = SOURCE_ROOT; };
+		916E36131D52E0BC000B5C26 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MiniMark/main.m; sourceTree = SOURCE_ROOT; };
+		916E36141D52E0BC000B5C26 /* MyApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyApp.h; path = MiniMark/MyApp.h; sourceTree = SOURCE_ROOT; };
+		916E36151D52E0BC000B5C26 /* MyApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyApp.m; path = MiniMark/MyApp.m; sourceTree = SOURCE_ROOT; };
+		916E36161D52E0BC000B5C26 /* MyAppList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MyAppList.plist; path = MiniMark/MyAppList.plist; sourceTree = SOURCE_ROOT; };
+		916E36171D52E0BC000B5C26 /* MyAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppViewController.h; path = MiniMark/MyAppViewController.h; sourceTree = SOURCE_ROOT; };
+		916E36181D52E0BC000B5C26 /* MyAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAppViewController.m; path = MiniMark/MyAppViewController.m; sourceTree = SOURCE_ROOT; };
+		916E36191D52E0BC000B5C26 /* WebSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebSite.h; path = MiniMark/WebSite.h; sourceTree = SOURCE_ROOT; };
+		916E361A1D52E0BC000B5C26 /* WebSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebSite.m; path = MiniMark/WebSite.m; sourceTree = SOURCE_ROOT; };
+		916E361B1D52E0BC000B5C26 /* WebsiteAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebsiteAddViewController.h; path = MiniMark/WebsiteAddViewController.h; sourceTree = SOURCE_ROOT; };
+		916E361C1D52E0BC000B5C26 /* WebsiteAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebsiteAddViewController.m; path = MiniMark/WebsiteAddViewController.m; sourceTree = SOURCE_ROOT; };
+		916E361D1D52E0BC000B5C26 /* WebSiteCategory.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = WebSiteCategory.plist; path = MiniMark/WebSiteCategory.plist; sourceTree = SOURCE_ROOT; };
+		916E361E1D52E0BC000B5C26 /* WebsiteEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebsiteEditorViewController.h; path = MiniMark/WebsiteEditorViewController.h; sourceTree = SOURCE_ROOT; };
+		916E361F1D52E0BC000B5C26 /* WebsiteEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebsiteEditorViewController.m; path = MiniMark/WebsiteEditorViewController.m; sourceTree = SOURCE_ROOT; };
+		916E36201D52E0BC000B5C26 /* WebsiteModifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebsiteModifyViewController.h; path = MiniMark/WebsiteModifyViewController.h; sourceTree = SOURCE_ROOT; };
+		916E36211D52E0BC000B5C26 /* WebsiteModifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebsiteModifyViewController.m; path = MiniMark/WebsiteModifyViewController.m; sourceTree = SOURCE_ROOT; };
+		916E36221D52E0BC000B5C26 /* WebsiteShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebsiteShowViewController.h; path = MiniMark/WebsiteShowViewController.h; sourceTree = SOURCE_ROOT; };
+		916E36231D52E0BC000B5C26 /* WebsiteShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebsiteShowViewController.m; path = MiniMark/WebsiteShowViewController.m; sourceTree = SOURCE_ROOT; };
+		916E36241D52E0BC000B5C26 /* WebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebsiteViewController.h; path = MiniMark/WebsiteViewController.h; sourceTree = SOURCE_ROOT; };
+		916E36251D52E0BC000B5C26 /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebsiteViewController.m; path = MiniMark/WebsiteViewController.m; sourceTree = SOURCE_ROOT; };
+		916E36381D52E16D000B5C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MiniMark/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		916E363B1D52E180000B5C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MiniMark/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		918A20821D52EAEF00955F6F /* MyAppCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppCollectionViewController.h; path = MiniMark/MyAppCollectionViewController.h; sourceTree = SOURCE_ROOT; };
+		918A20831D52EAEF00955F6F /* MyAppCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAppCollectionViewController.m; path = MiniMark/MyAppCollectionViewController.m; sourceTree = SOURCE_ROOT; };
+		918A20851D52FF9100955F6F /* collectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = collectionCell.h; path = MiniMark/collectionCell.h; sourceTree = SOURCE_ROOT; };
+		918A20861D52FF9100955F6F /* collectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = collectionCell.m; path = MiniMark/collectionCell.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		916E35A41D5188F2000B5C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916E35D41D519334000B5C26 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		916E359E1D5188F2000B5C26 = {
+			isa = PBXGroup;
+			children = (
+				916E35A91D5188F2000B5C26 /* MiniMark */,
+				916E35E91D51DC42000B5C26 /* LaunchServicesApis */,
+				916E35F01D51F131000B5C26 /* WebViewProgressApis */,
+				916E35A81D5188F2000B5C26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		916E35A81D5188F2000B5C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				916E35A71D5188F2000B5C26 /* MiniMark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		916E35A91D5188F2000B5C26 /* MiniMark */ = {
+			isa = PBXGroup;
+			children = (
+				916E363A1D52E180000B5C26 /* Main.storyboard */,
+				916E36241D52E0BC000B5C26 /* WebsiteViewController.h */,
+				916E36251D52E0BC000B5C26 /* WebsiteViewController.m */,
+				916E361E1D52E0BC000B5C26 /* WebsiteEditorViewController.h */,
+				916E361F1D52E0BC000B5C26 /* WebsiteEditorViewController.m */,
+				916E361B1D52E0BC000B5C26 /* WebsiteAddViewController.h */,
+				916E361C1D52E0BC000B5C26 /* WebsiteAddViewController.m */,
+				916E36201D52E0BC000B5C26 /* WebsiteModifyViewController.h */,
+				916E36211D52E0BC000B5C26 /* WebsiteModifyViewController.m */,
+				916E36221D52E0BC000B5C26 /* WebsiteShowViewController.h */,
+				916E36231D52E0BC000B5C26 /* WebsiteShowViewController.m */,
+				918A20821D52EAEF00955F6F /* MyAppCollectionViewController.h */,
+				918A20831D52EAEF00955F6F /* MyAppCollectionViewController.m */,
+				918A20851D52FF9100955F6F /* collectionCell.h */,
+				918A20861D52FF9100955F6F /* collectionCell.m */,
+				916E36171D52E0BC000B5C26 /* MyAppViewController.h */,
+				916E36181D52E0BC000B5C26 /* MyAppViewController.m */,
+				916E360C1D52E0BC000B5C26 /* AppListTableViewController.h */,
+				916E360D1D52E0BC000B5C26 /* AppListTableViewController.m */,
+				916E36101D52E0BC000B5C26 /* DataOperator.h */,
+				916E36111D52E0BC000B5C26 /* DataOperator.m */,
+				916E36141D52E0BC000B5C26 /* MyApp.h */,
+				916E36151D52E0BC000B5C26 /* MyApp.m */,
+				916E36191D52E0BC000B5C26 /* WebSite.h */,
+				916E361A1D52E0BC000B5C26 /* WebSite.m */,
+				916E360A1D52E0BC000B5C26 /* AppDelegate.h */,
+				916E360B1D52E0BC000B5C26 /* AppDelegate.m */,
+				916E35F71D52025D000B5C26 /* Images */,
+				916E35D51D519340000B5C26 /* Frameworks */,
+				916E35AA1D5188F2000B5C26 /* Supporting Files */,
+			);
+			name = MiniMark;
+			path = PersonalFavorites;
+			sourceTree = "<group>";
+		};
+		916E35AA1D5188F2000B5C26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				916E360E1D52E0BC000B5C26 /* Assets.xcassets */,
+				916E36121D52E0BC000B5C26 /* Info.plist */,
+				916E36161D52E0BC000B5C26 /* MyAppList.plist */,
+				916E361D1D52E0BC000B5C26 /* WebSiteCategory.plist */,
+				916E36371D52E16D000B5C26 /* LaunchScreen.storyboard */,
+				916E36131D52E0BC000B5C26 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		916E35D51D519340000B5C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				916E35D31D519334000B5C26 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		916E35E91D51DC42000B5C26 /* LaunchServicesApis */ = {
+			isa = PBXGroup;
+			children = (
+				916E35EA1D51DC80000B5C26 /* LMApp.h */,
+				916E35EB1D51DC80000B5C26 /* LMApp.m */,
+				916E35EC1D51DC80000B5C26 /* LMAppController.h */,
+				916E35ED1D51DC80000B5C26 /* LMAppController.m */,
+			);
+			name = LaunchServicesApis;
+			sourceTree = "<group>";
+		};
+		916E35F01D51F131000B5C26 /* WebViewProgressApis */ = {
+			isa = PBXGroup;
+			children = (
+				916E35F11D51F1F7000B5C26 /* NJKWebViewProgress.h */,
+				916E35F21D51F1F7000B5C26 /* NJKWebViewProgress.m */,
+				916E35F31D51F1F7000B5C26 /* NJKWebViewProgressView.h */,
+				916E35F41D51F1F7000B5C26 /* NJKWebViewProgressView.m */,
+			);
+			name = WebViewProgressApis;
+			path = PersonalFavorites;
+			sourceTree = "<group>";
+		};
+		916E35F71D52025D000B5C26 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				916E35F81D520272000B5C26 /* logo_120*120.png */,
+				916E35F91D520272000B5C26 /* logo_180*180.png */,
+				916E35FA1D520272000B5C26 /* plus_60*60.png */,
+				916E35FB1D520272000B5C26 /* plus_120*120.png */,
+				916E35FC1D520272000B5C26 /* plus_180*180.png */,
+				916E35FD1D520272000B5C26 /* trash_60*60.png */,
+				916E35FE1D520272000B5C26 /* trash_120*120.png */,
+				916E35FF1D520272000B5C26 /* trash_180*180.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		916E35A61D5188F2000B5C26 /* MiniMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 916E35C11D5188F2000B5C26 /* Build configuration list for PBXNativeTarget "MiniMark" */;
+			buildPhases = (
+				916E35A31D5188F2000B5C26 /* Sources */,
+				916E35A41D5188F2000B5C26 /* Frameworks */,
+				916E35A51D5188F2000B5C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniMark;
+			productName = PersonalFavorites;
+			productReference = 916E35A71D5188F2000B5C26 /* MiniMark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		916E359F1D5188F2000B5C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "迈思腾科技";
+				TargetAttributes = {
+					916E35A61D5188F2000B5C26 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3B86833JQ8;
+					};
+				};
+			};
+			buildConfigurationList = 916E35A21D5188F2000B5C26 /* Build configuration list for PBXProject "MiniMark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 916E359E1D5188F2000B5C26;
+			productRefGroup = 916E35A81D5188F2000B5C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				916E35A61D5188F2000B5C26 /* MiniMark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		916E35A51D5188F2000B5C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916E362B1D52E0BC000B5C26 /* Info.plist in Resources */,
+				916E36321D52E0BC000B5C26 /* WebSiteCategory.plist in Resources */,
+				916E36061D520272000B5C26 /* trash_120*120.png in Resources */,
+				916E36051D520272000B5C26 /* trash_60*60.png in Resources */,
+				916E36001D520272000B5C26 /* logo_120*120.png in Resources */,
+				916E362E1D52E0BC000B5C26 /* MyAppList.plist in Resources */,
+				916E36281D52E0BC000B5C26 /* Assets.xcassets in Resources */,
+				916E363C1D52E180000B5C26 /* Main.storyboard in Resources */,
+				916E36071D520272000B5C26 /* trash_180*180.png in Resources */,
+				916E36021D520272000B5C26 /* plus_60*60.png in Resources */,
+				916E36031D520272000B5C26 /* plus_120*120.png in Resources */,
+				916E36041D520272000B5C26 /* plus_180*180.png in Resources */,
+				916E36391D52E16D000B5C26 /* LaunchScreen.storyboard in Resources */,
+				916E36011D520272000B5C26 /* logo_180*180.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		916E35A31D5188F2000B5C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916E36271D52E0BC000B5C26 /* AppListTableViewController.m in Sources */,
+				918A20841D52EAEF00955F6F /* MyAppCollectionViewController.m in Sources */,
+				916E36361D52E0BC000B5C26 /* WebsiteViewController.m in Sources */,
+				916E36311D52E0BC000B5C26 /* WebsiteAddViewController.m in Sources */,
+				916E362F1D52E0BC000B5C26 /* MyAppViewController.m in Sources */,
+				918A20871D52FF9100955F6F /* collectionCell.m in Sources */,
+				916E35EF1D51DC80000B5C26 /* LMAppController.m in Sources */,
+				916E362C1D52E0BC000B5C26 /* main.m in Sources */,
+				916E35F51D51F1F7000B5C26 /* NJKWebViewProgress.m in Sources */,
+				916E35EE1D51DC80000B5C26 /* LMApp.m in Sources */,
+				916E36261D52E0BC000B5C26 /* AppDelegate.m in Sources */,
+				916E36341D52E0BC000B5C26 /* WebsiteModifyViewController.m in Sources */,
+				916E362D1D52E0BC000B5C26 /* MyApp.m in Sources */,
+				916E36301D52E0BC000B5C26 /* WebSite.m in Sources */,
+				916E36351D52E0BC000B5C26 /* WebsiteShowViewController.m in Sources */,
+				916E362A1D52E0BC000B5C26 /* DataOperator.m in Sources */,
+				916E35F61D51F1F7000B5C26 /* NJKWebViewProgressView.m in Sources */,
+				916E36331D52E0BC000B5C26 /* WebsiteEditorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		916E36371D52E16D000B5C26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916E36381D52E16D000B5C26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		916E363A1D52E180000B5C26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916E363B1D52E180000B5C26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		916E35BF1D5188F2000B5C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		916E35C01D5188F2000B5C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		916E35C21D5188F2000B5C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/MiniMark/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maisiteng.MiniMark;
+				PRODUCT_NAME = MiniMark;
+			};
+			name = Debug;
+		};
+		916E35C31D5188F2000B5C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/MiniMark/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maisiteng.MiniMark;
+				PRODUCT_NAME = MiniMark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		916E35A21D5188F2000B5C26 /* Build configuration list for PBXProject "MiniMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E35BF1D5188F2000B5C26 /* Debug */,
+				916E35C01D5188F2000B5C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		916E35C11D5188F2000B5C26 /* Build configuration list for PBXNativeTarget "MiniMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E35C21D5188F2000B5C26 /* Debug */,
+				916E35C31D5188F2000B5C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 916E359F1D5188F2000B5C26 /* Project object */;
+}

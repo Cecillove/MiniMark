@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Phone</key>
+	<string>tel://</string>
+	<key>Facetime</key>
+	<string>facetime://</string>
+	<key>微信</key>
+	<string>weixin://</string>
+	<key>微博</key>
+	<string>sinaweibo://</string>
+	<key>iMessage</key>
+	<string>sms://</string>
+	<key>Mail</key>
+	<string>message://</string>
+	<key>App Store</key>
+	<string>itms-apps://</string>
+</dict>
+</plist>
