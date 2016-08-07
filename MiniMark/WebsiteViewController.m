@@ -30,6 +30,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    self.myTableView.sectionHeaderHeight = 0;
+    self.myTableView.sectionFooterHeight = 10;
 }
 
 - (void) viewWillAppear:(BOOL)animated {
@@ -67,6 +70,10 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     self.categoryList =[ DataOperator getWebsiteCategories];
     return self.categoryList.count;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 30;
 }
 
 // 设置tableView行数

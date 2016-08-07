@@ -12,14 +12,6 @@
 		916E35EF1D51DC80000B5C26 /* LMAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E35ED1D51DC80000B5C26 /* LMAppController.m */; };
 		916E35F51D51F1F7000B5C26 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E35F21D51F1F7000B5C26 /* NJKWebViewProgress.m */; };
 		916E35F61D51F1F7000B5C26 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E35F41D51F1F7000B5C26 /* NJKWebViewProgressView.m */; };
-		916E36001D520272000B5C26 /* logo_120*120.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35F81D520272000B5C26 /* logo_120*120.png */; };
-		916E36011D520272000B5C26 /* logo_180*180.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35F91D520272000B5C26 /* logo_180*180.png */; };
-		916E36021D520272000B5C26 /* plus_60*60.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35FA1D520272000B5C26 /* plus_60*60.png */; };
-		916E36031D520272000B5C26 /* plus_120*120.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35FB1D520272000B5C26 /* plus_120*120.png */; };
-		916E36041D520272000B5C26 /* plus_180*180.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35FC1D520272000B5C26 /* plus_180*180.png */; };
-		916E36051D520272000B5C26 /* trash_60*60.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35FD1D520272000B5C26 /* trash_60*60.png */; };
-		916E36061D520272000B5C26 /* trash_120*120.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35FE1D520272000B5C26 /* trash_120*120.png */; };
-		916E36071D520272000B5C26 /* trash_180*180.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E35FF1D520272000B5C26 /* trash_180*180.png */; };
 		916E36261D52E0BC000B5C26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E360B1D52E0BC000B5C26 /* AppDelegate.m */; };
 		916E36271D52E0BC000B5C26 /* AppListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E360D1D52E0BC000B5C26 /* AppListTableViewController.m */; };
 		916E36281D52E0BC000B5C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916E360E1D52E0BC000B5C26 /* Assets.xcassets */; };
@@ -28,7 +20,6 @@
 		916E362C1D52E0BC000B5C26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36131D52E0BC000B5C26 /* main.m */; };
 		916E362D1D52E0BC000B5C26 /* MyApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36151D52E0BC000B5C26 /* MyApp.m */; };
 		916E362E1D52E0BC000B5C26 /* MyAppList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 916E36161D52E0BC000B5C26 /* MyAppList.plist */; };
-		916E362F1D52E0BC000B5C26 /* MyAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36181D52E0BC000B5C26 /* MyAppViewController.m */; };
 		916E36301D52E0BC000B5C26 /* WebSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E361A1D52E0BC000B5C26 /* WebSite.m */; };
 		916E36311D52E0BC000B5C26 /* WebsiteAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E361C1D52E0BC000B5C26 /* WebsiteAddViewController.m */; };
 		916E36321D52E0BC000B5C26 /* WebSiteCategory.plist in Resources */ = {isa = PBXBuildFile; fileRef = 916E361D1D52E0BC000B5C26 /* WebSiteCategory.plist */; };
@@ -53,14 +44,6 @@
 		916E35F21D51F1F7000B5C26 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgress.m; path = WebViewProgressApis/NJKWebViewProgress.m; sourceTree = SOURCE_ROOT; };
 		916E35F31D51F1F7000B5C26 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = WebViewProgressApis/NJKWebViewProgressView.h; sourceTree = SOURCE_ROOT; };
 		916E35F41D51F1F7000B5C26 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = WebViewProgressApis/NJKWebViewProgressView.m; sourceTree = SOURCE_ROOT; };
-		916E35F81D520272000B5C26 /* logo_120*120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_120*120.png"; path = "Images/logo_120*120.png"; sourceTree = "<group>"; };
-		916E35F91D520272000B5C26 /* logo_180*180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_180*180.png"; path = "Images/logo_180*180.png"; sourceTree = "<group>"; };
-		916E35FA1D520272000B5C26 /* plus_60*60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus_60*60.png"; path = "Images/plus_60*60.png"; sourceTree = "<group>"; };
-		916E35FB1D520272000B5C26 /* plus_120*120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus_120*120.png"; path = "Images/plus_120*120.png"; sourceTree = "<group>"; };
-		916E35FC1D520272000B5C26 /* plus_180*180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus_180*180.png"; path = "Images/plus_180*180.png"; sourceTree = "<group>"; };
-		916E35FD1D520272000B5C26 /* trash_60*60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trash_60*60.png"; path = "Images/trash_60*60.png"; sourceTree = "<group>"; };
-		916E35FE1D520272000B5C26 /* trash_120*120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trash_120*120.png"; path = "Images/trash_120*120.png"; sourceTree = "<group>"; };
-		916E35FF1D520272000B5C26 /* trash_180*180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trash_180*180.png"; path = "Images/trash_180*180.png"; sourceTree = "<group>"; };
 		916E360A1D52E0BC000B5C26 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MiniMark/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		916E360B1D52E0BC000B5C26 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MiniMark/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		916E360C1D52E0BC000B5C26 /* AppListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppListTableViewController.h; path = MiniMark/AppListTableViewController.h; sourceTree = SOURCE_ROOT; };
@@ -73,8 +56,6 @@
 		916E36141D52E0BC000B5C26 /* MyApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyApp.h; path = MiniMark/MyApp.h; sourceTree = SOURCE_ROOT; };
 		916E36151D52E0BC000B5C26 /* MyApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyApp.m; path = MiniMark/MyApp.m; sourceTree = SOURCE_ROOT; };
 		916E36161D52E0BC000B5C26 /* MyAppList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MyAppList.plist; path = MiniMark/MyAppList.plist; sourceTree = SOURCE_ROOT; };
-		916E36171D52E0BC000B5C26 /* MyAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppViewController.h; path = MiniMark/MyAppViewController.h; sourceTree = SOURCE_ROOT; };
-		916E36181D52E0BC000B5C26 /* MyAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAppViewController.m; path = MiniMark/MyAppViewController.m; sourceTree = SOURCE_ROOT; };
 		916E36191D52E0BC000B5C26 /* WebSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebSite.h; path = MiniMark/WebSite.h; sourceTree = SOURCE_ROOT; };
 		916E361A1D52E0BC000B5C26 /* WebSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebSite.m; path = MiniMark/WebSite.m; sourceTree = SOURCE_ROOT; };
 		916E361B1D52E0BC000B5C26 /* WebsiteAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebsiteAddViewController.h; path = MiniMark/WebsiteAddViewController.h; sourceTree = SOURCE_ROOT; };
@@ -144,8 +125,6 @@
 				918A20831D52EAEF00955F6F /* MyAppCollectionViewController.m */,
 				918A20851D52FF9100955F6F /* collectionCell.h */,
 				918A20861D52FF9100955F6F /* collectionCell.m */,
-				916E36171D52E0BC000B5C26 /* MyAppViewController.h */,
-				916E36181D52E0BC000B5C26 /* MyAppViewController.m */,
 				916E360C1D52E0BC000B5C26 /* AppListTableViewController.h */,
 				916E360D1D52E0BC000B5C26 /* AppListTableViewController.m */,
 				916E36101D52E0BC000B5C26 /* DataOperator.h */,
@@ -156,7 +135,6 @@
 				916E361A1D52E0BC000B5C26 /* WebSite.m */,
 				916E360A1D52E0BC000B5C26 /* AppDelegate.h */,
 				916E360B1D52E0BC000B5C26 /* AppDelegate.m */,
-				916E35F71D52025D000B5C26 /* Images */,
 				916E35D51D519340000B5C26 /* Frameworks */,
 				916E35AA1D5188F2000B5C26 /* Supporting Files */,
 			);
@@ -207,22 +185,6 @@
 			);
 			name = WebViewProgressApis;
 			path = PersonalFavorites;
-			sourceTree = "<group>";
-		};
-		916E35F71D52025D000B5C26 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				916E35F81D520272000B5C26 /* logo_120*120.png */,
-				916E35F91D520272000B5C26 /* logo_180*180.png */,
-				916E35FA1D520272000B5C26 /* plus_60*60.png */,
-				916E35FB1D520272000B5C26 /* plus_120*120.png */,
-				916E35FC1D520272000B5C26 /* plus_180*180.png */,
-				916E35FD1D520272000B5C26 /* trash_60*60.png */,
-				916E35FE1D520272000B5C26 /* trash_120*120.png */,
-				916E35FF1D520272000B5C26 /* trash_180*180.png */,
-			);
-			name = Images;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,18 +247,10 @@
 			files = (
 				916E362B1D52E0BC000B5C26 /* Info.plist in Resources */,
 				916E36321D52E0BC000B5C26 /* WebSiteCategory.plist in Resources */,
-				916E36061D520272000B5C26 /* trash_120*120.png in Resources */,
-				916E36051D520272000B5C26 /* trash_60*60.png in Resources */,
-				916E36001D520272000B5C26 /* logo_120*120.png in Resources */,
 				916E362E1D52E0BC000B5C26 /* MyAppList.plist in Resources */,
 				916E36281D52E0BC000B5C26 /* Assets.xcassets in Resources */,
 				916E363C1D52E180000B5C26 /* Main.storyboard in Resources */,
-				916E36071D520272000B5C26 /* trash_180*180.png in Resources */,
-				916E36021D520272000B5C26 /* plus_60*60.png in Resources */,
-				916E36031D520272000B5C26 /* plus_120*120.png in Resources */,
-				916E36041D520272000B5C26 /* plus_180*180.png in Resources */,
 				916E36391D52E16D000B5C26 /* LaunchScreen.storyboard in Resources */,
-				916E36011D520272000B5C26 /* logo_180*180.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +265,6 @@
 				918A20841D52EAEF00955F6F /* MyAppCollectionViewController.m in Sources */,
 				916E36361D52E0BC000B5C26 /* WebsiteViewController.m in Sources */,
 				916E36311D52E0BC000B5C26 /* WebsiteAddViewController.m in Sources */,
-				916E362F1D52E0BC000B5C26 /* MyAppViewController.m in Sources */,
 				918A20871D52FF9100955F6F /* collectionCell.m in Sources */,
 				916E35EF1D51DC80000B5C26 /* LMAppController.m in Sources */,
 				916E362C1D52E0BC000B5C26 /* main.m in Sources */,
@@ -436,10 +389,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/MiniMark/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maisiteng.MiniMark;
 				PRODUCT_NAME = MiniMark;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -447,10 +403,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/MiniMark/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maisiteng.MiniMark;
 				PRODUCT_NAME = MiniMark;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
