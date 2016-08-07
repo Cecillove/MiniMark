@@ -53,6 +53,10 @@
     self.tabBarController.tabBar.hidden = YES;
 }
 
+- (void)viewWillDisappear:(BOOL)animated {
+    [_webViewProgressView removeFromSuperview];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -64,16 +68,5 @@
     [_webViewProgressView setProgress:progress animated:YES];
     self.title = [self.myWebView stringByEvaluatingJavaScriptFromString:@"document.title"];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 
 @end

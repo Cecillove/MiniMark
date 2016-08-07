@@ -20,7 +20,6 @@
 		916E362C1D52E0BC000B5C26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36131D52E0BC000B5C26 /* main.m */; };
 		916E362D1D52E0BC000B5C26 /* MyApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36151D52E0BC000B5C26 /* MyApp.m */; };
 		916E362E1D52E0BC000B5C26 /* MyAppList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 916E36161D52E0BC000B5C26 /* MyAppList.plist */; };
-		916E362F1D52E0BC000B5C26 /* MyAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36181D52E0BC000B5C26 /* MyAppViewController.m */; };
 		916E36301D52E0BC000B5C26 /* WebSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E361A1D52E0BC000B5C26 /* WebSite.m */; };
 		916E36311D52E0BC000B5C26 /* WebsiteAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E361C1D52E0BC000B5C26 /* WebsiteAddViewController.m */; };
 		916E36321D52E0BC000B5C26 /* WebSiteCategory.plist in Resources */ = {isa = PBXBuildFile; fileRef = 916E361D1D52E0BC000B5C26 /* WebSiteCategory.plist */; };
@@ -57,8 +56,6 @@
 		916E36141D52E0BC000B5C26 /* MyApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyApp.h; path = MiniMark/MyApp.h; sourceTree = SOURCE_ROOT; };
 		916E36151D52E0BC000B5C26 /* MyApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyApp.m; path = MiniMark/MyApp.m; sourceTree = SOURCE_ROOT; };
 		916E36161D52E0BC000B5C26 /* MyAppList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MyAppList.plist; path = MiniMark/MyAppList.plist; sourceTree = SOURCE_ROOT; };
-		916E36171D52E0BC000B5C26 /* MyAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppViewController.h; path = MiniMark/MyAppViewController.h; sourceTree = SOURCE_ROOT; };
-		916E36181D52E0BC000B5C26 /* MyAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAppViewController.m; path = MiniMark/MyAppViewController.m; sourceTree = SOURCE_ROOT; };
 		916E36191D52E0BC000B5C26 /* WebSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebSite.h; path = MiniMark/WebSite.h; sourceTree = SOURCE_ROOT; };
 		916E361A1D52E0BC000B5C26 /* WebSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebSite.m; path = MiniMark/WebSite.m; sourceTree = SOURCE_ROOT; };
 		916E361B1D52E0BC000B5C26 /* WebsiteAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebsiteAddViewController.h; path = MiniMark/WebsiteAddViewController.h; sourceTree = SOURCE_ROOT; };
@@ -128,8 +125,6 @@
 				918A20831D52EAEF00955F6F /* MyAppCollectionViewController.m */,
 				918A20851D52FF9100955F6F /* collectionCell.h */,
 				918A20861D52FF9100955F6F /* collectionCell.m */,
-				916E36171D52E0BC000B5C26 /* MyAppViewController.h */,
-				916E36181D52E0BC000B5C26 /* MyAppViewController.m */,
 				916E360C1D52E0BC000B5C26 /* AppListTableViewController.h */,
 				916E360D1D52E0BC000B5C26 /* AppListTableViewController.m */,
 				916E36101D52E0BC000B5C26 /* DataOperator.h */,
@@ -270,7 +265,6 @@
 				918A20841D52EAEF00955F6F /* MyAppCollectionViewController.m in Sources */,
 				916E36361D52E0BC000B5C26 /* WebsiteViewController.m in Sources */,
 				916E36311D52E0BC000B5C26 /* WebsiteAddViewController.m in Sources */,
-				916E362F1D52E0BC000B5C26 /* MyAppViewController.m in Sources */,
 				918A20871D52FF9100955F6F /* collectionCell.m in Sources */,
 				916E35EF1D51DC80000B5C26 /* LMAppController.m in Sources */,
 				916E362C1D52E0BC000B5C26 /* main.m in Sources */,

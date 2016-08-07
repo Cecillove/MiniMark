@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <deployment identifier="iOS"/>
+        <deployment version="2304" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -18,9 +18,9 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="e1i-vT-Sne">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="e1i-vT-Sne">
                                 <rect key="frame" x="-4" y="0.0" width="328" height="504"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="9pv-A4-QxB" id="1eA-EQ-tH3"/>
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="oDl-n8-qHN"/>
@@ -53,52 +53,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="833.06666666666661" y="340.80000000000001"/>
-        </scene>
-        <!--常用APP-->
-        <scene sceneID="wg7-f3-ORb">
-            <objects>
-                <viewController title="常用APP" automaticallyAdjustsScrollViewInsets="NO" id="8rJ-Kc-sve" customClass="MyAppViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
-                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CYf-MG-tKE">
-                                <rect key="frame" x="-4" y="64" width="328" height="504"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="8rJ-Kc-sve" id="Y1e-xi-0gP"/>
-                                    <outlet property="delegate" destination="8rJ-Kc-sve" id="lEd-CO-4ac"/>
-                                </connections>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="CYf-MG-tKE" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="2E4-V3-mWV"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="CYf-MG-tKE" secondAttribute="trailing" constant="-20" id="2Wc-l9-zpN"/>
-                            <constraint firstItem="CYf-MG-tKE" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="-20" id="9qC-ZP-gVU"/>
-                            <constraint firstItem="CYf-MG-tKE" firstAttribute="bottom" secondItem="QS5-Rx-YEW" secondAttribute="bottomMargin" id="TuH-Qb-Zs5"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="常用APP" id="abv-lm-g6d">
-                        <barButtonItem key="backBarButtonItem" title="返回" id="LYE-1Z-6y6"/>
-                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="1DQ-iU-cSi"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="6p7-so-KgP">
-                            <connections>
-                                <action selector="doAddBtn:" destination="8rJ-Kc-sve" id="mXL-f9-PBe"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="tableView" destination="CYf-MG-tKE" id="Oxr-Po-f9a"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="400" y="1051"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -157,7 +111,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ybP-iZ-scz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="400" y="340.80000000000001"/>
+            <point key="canvasLocation" x="424" y="340"/>
         </scene>
         <!--常用APP-->
         <scene sceneID="VQX-Nh-zOT">
@@ -256,18 +210,50 @@
         <scene sceneID="1cn-az-y6I">
             <objects>
                 <navigationController id="aEa-Li-VWg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="f4w-O9-BQ0"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3h9-Hm-IFp">
+                    <tabBarItem key="tabBarItem" systemItem="more" id="f4w-O9-BQ0"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="3h9-Hm-IFp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="raE-y7-ywN"/>
+                        <segue destination="xW1-cG-YzL" kind="relationship" relationship="rootViewController" id="R6x-NJ-ukM"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1uS-fz-g0k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="1051"/>
+        </scene>
+        <!--更多-->
+        <scene sceneID="ZQ4-S9-HRE">
+            <objects>
+                <viewController id="xW1-cG-YzL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gBs-Xd-qpG"/>
+                        <viewControllerLayoutGuide type="bottom" id="yuW-7C-6NE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rr3-2v-jta">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="oDp-Ac-QIi">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="455"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yuW-7C-6NE" firstAttribute="top" secondItem="oDp-Ac-QIi" secondAttribute="bottom" id="P9H-Jo-uri"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oDp-Ac-QIi" secondAttribute="trailing" constant="-20" id="T0v-op-g2E"/>
+                            <constraint firstItem="oDp-Ac-QIi" firstAttribute="leading" secondItem="rr3-2v-jta" secondAttribute="leadingMargin" constant="-20" id="UiV-PR-cso"/>
+                            <constraint firstItem="oDp-Ac-QIi" firstAttribute="top" secondItem="gBs-Xd-qpG" secondAttribute="bottom" id="p9e-gB-f8a"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="更多" id="vr0-at-oyB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h37-by-QJv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="424" y="1051"/>
         </scene>
         <!--显示网站-->
         <scene sceneID="1Np-E0-Lwp">

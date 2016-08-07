@@ -39,6 +39,7 @@ NS_ENUM(NSInteger, CellState) {
 - (IBAction)doTrashBtn:(id)sender;
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *trashBtn;
 - (IBAction)doDeleteBtn:(id)sender;
+@property (strong, nonatomic) UILongPressGestureRecognizer *longPress;
 
 @end
 
@@ -50,13 +51,10 @@ static NSString * const reuseIdentifier = @"collectionCell";
     [super viewDidLoad];
     
     //创建长按手势监听
-    UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc]
-                                               initWithTarget:self
-                                               action:@selector(myHandleTableviewCellLongPressed:)];
-    longPress.minimumPressDuration = 1.0;
+    self.longPress = [[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(myHandleTableviewCellLongPressed:)];
+    self.longPress.minimumPressDuration = 0.1;
     //将长按手势添加到需要实现长按操作的视图里
-    [self.myCollectionView addGestureRecognizer:longPress];
-
+    [self.myCollectionView addGestureRecognizer:self.longPress];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -70,27 +68,30 @@ static NSString * const reuseIdentifier = @"collectionCell";
 }
 
 - (void) myHandleTableviewCellLongPressed:(UILongPressGestureRecognizer *)gestureRecognizer {
-    CGPoint pointTouch = [gestureRecognizer locationInView:self.myCollectionView];
+    if (CellState == NormalState) {
+        return;
+    }
     
-    if (gestureRecognizer.state == UIGestureRecognizerStateBegan) {
-        NSLog(@"UIGestureRecognizerStateBegan");
-        
-        NSIndexPath *indexPath = [self.myCollectionView indexPathForItemAtPoint:pointTouch];
-        if (indexPath == nil) {
-            NSLog(@"空");
-        }else{
-//            MyApp *myapp = self.appArray[indexPath.row];
-//            [DataOperator deleteMyAppData:[myapp.row intValue]];
-//            [self.myCollectionView reloadData];
+    switch (gestureRecognizer.state) {
+        case UIGestureRecognizerStateBegan: {
+            NSIndexPath *selectedIndexPath = [self.myCollectionView indexPathForItemAtPoint:[gestureRecognizer locationInView:self.myCollectionView]];
+            if (selectedIndexPath != nil) {
+                [self.myCollectionView beginInteractiveMovementForItemAtIndexPath:selectedIndexPath];
+            }
+            break;
         }
+        case UIGestureRecognizerStateChanged: {
+            [self.myCollectionView updateInteractiveMovementTargetPosition:[gestureRecognizer locationInView:gestureRecognizer.view]];
+            break;
+        }
+        case UIGestureRecognizerStateEnded: {
+            [self.myCollectionView endInteractiveMovement];
+            break;
+        }
+        default:
+            [self.myCollectionView cancelInteractiveMovement];
+            break;
     }
-    if (gestureRecognizer.state == UIGestureRecognizerStateChanged) {
-        NSLog(@"UIGestureRecognizerStateChanged");
-    }
-    
-    if (gestureRecognizer.state == UIGestureRecognizerStateEnded) {
-        NSLog(@"UIGestureRecognizerStateEnded");
-    }  
 }
 
 #pragma mark <UICollectionViewDataSource>
@@ -149,6 +150,19 @@ static NSString * const reuseIdentifier = @"collectionCell";
     }
 }
 
+- (void)collectionView:(UICollectionView *)collectionView moveItemAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath {
+    // 更新sortno
+    MyApp *myapp = self.appArray[sourceIndexPath.row];
+    [self.appArray removeObject:myapp];
+    [self.appArray insertObject:myapp atIndex:destinationIndexPath.row];
+    
+    for (int i = 0; i < self.appArray.count; i++) {
+        MyApp *update = self.appArray[i];
+        update.sortno = [NSString stringWithFormat:@"%d", i + 1];
+        // Update SORTNO
+        [DataOperator modifyMyAppData:update];
+    }
+}
 /*
 // Uncomment this method to specify if the specified item should be highlighted during tracking
 - (BOOL)collectionView:(UICollectionView *)collectionView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath {
@@ -184,21 +198,6 @@ static NSString * const reuseIdentifier = @"collectionCell";
     if (CellState == NormalState) {
         CellState = DeleteState;
         self.trashBtn.title = @"完成";
-        
-//        //循环遍历整个CollectionView；
-//        for(collectionCell *cell in self.myCollectionView.visibleCells){
-//            [cell addSubview:cell.deleteBtn];
-//            [cell.deleteBtn bringSubviewToFront:self.myCollectionView];
-//            [cell.deleteBtn setHidden:NO];
-//            
-//            // 抖动动画
-//            CAKeyframeAnimation *anim = [CAKeyframeAnimation animation];
-//            anim.keyPath = @"transform.rotation";
-//            anim.values = @[@(angelToRandian(-7)),@(angelToRandian(7)),@(angelToRandian(-7))];
-//            anim.repeatCount = MAXFLOAT;
-//            anim.duration = 0.2;
-//            [cell.imageView.layer addAnimation:anim forKey:nil];
-//        }
     }
     else if (CellState == DeleteState) {
         CellState = NormalState;
