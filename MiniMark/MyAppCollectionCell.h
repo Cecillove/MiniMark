@@ -1,5 +1,5 @@
 //
-//  collectionCell.h
+//  MyAppCollectionCell.h
 //  MiniMark
 //
 //  Created by  尹尚維 on 16/8/4.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface collectionCell : UICollectionViewCell
+@interface MyAppCollectionCell : UICollectionViewCell
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 @property (strong, nonatomic) IBOutlet UILabel *label;
 @property (strong, nonatomic) IBOutlet UIButton *deleteBtn;

@@ -30,7 +30,7 @@
 		916E36391D52E16D000B5C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916E36371D52E16D000B5C26 /* LaunchScreen.storyboard */; };
 		916E363C1D52E180000B5C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916E363A1D52E180000B5C26 /* Main.storyboard */; };
 		918A20841D52EAEF00955F6F /* MyAppCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A20831D52EAEF00955F6F /* MyAppCollectionViewController.m */; };
-		918A20871D52FF9100955F6F /* collectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A20861D52FF9100955F6F /* collectionCell.m */; };
+		918A20871D52FF9100955F6F /* MyAppCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A20861D52FF9100955F6F /* MyAppCollectionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,8 +73,8 @@
 		916E363B1D52E180000B5C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MiniMark/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		918A20821D52EAEF00955F6F /* MyAppCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppCollectionViewController.h; path = MiniMark/MyAppCollectionViewController.h; sourceTree = SOURCE_ROOT; };
 		918A20831D52EAEF00955F6F /* MyAppCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAppCollectionViewController.m; path = MiniMark/MyAppCollectionViewController.m; sourceTree = SOURCE_ROOT; };
-		918A20851D52FF9100955F6F /* collectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = collectionCell.h; path = MiniMark/collectionCell.h; sourceTree = SOURCE_ROOT; };
-		918A20861D52FF9100955F6F /* collectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = collectionCell.m; path = MiniMark/collectionCell.m; sourceTree = SOURCE_ROOT; };
+		918A20851D52FF9100955F6F /* MyAppCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppCollectionCell.h; path = MiniMark/MyAppCollectionCell.h; sourceTree = SOURCE_ROOT; };
+		918A20861D52FF9100955F6F /* MyAppCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAppCollectionCell.m; path = MiniMark/MyAppCollectionCell.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,30 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				916E363A1D52E180000B5C26 /* Main.storyboard */,
-				916E36241D52E0BC000B5C26 /* WebsiteViewController.h */,
-				916E36251D52E0BC000B5C26 /* WebsiteViewController.m */,
-				916E361E1D52E0BC000B5C26 /* WebsiteEditorViewController.h */,
-				916E361F1D52E0BC000B5C26 /* WebsiteEditorViewController.m */,
-				916E361B1D52E0BC000B5C26 /* WebsiteAddViewController.h */,
-				916E361C1D52E0BC000B5C26 /* WebsiteAddViewController.m */,
-				916E36201D52E0BC000B5C26 /* WebsiteModifyViewController.h */,
-				916E36211D52E0BC000B5C26 /* WebsiteModifyViewController.m */,
-				916E36221D52E0BC000B5C26 /* WebsiteShowViewController.h */,
-				916E36231D52E0BC000B5C26 /* WebsiteShowViewController.m */,
-				918A20821D52EAEF00955F6F /* MyAppCollectionViewController.h */,
-				918A20831D52EAEF00955F6F /* MyAppCollectionViewController.m */,
-				918A20851D52FF9100955F6F /* collectionCell.h */,
-				918A20861D52FF9100955F6F /* collectionCell.m */,
-				916E360C1D52E0BC000B5C26 /* AppListTableViewController.h */,
-				916E360D1D52E0BC000B5C26 /* AppListTableViewController.m */,
-				916E36101D52E0BC000B5C26 /* DataOperator.h */,
-				916E36111D52E0BC000B5C26 /* DataOperator.m */,
-				916E36141D52E0BC000B5C26 /* MyApp.h */,
-				916E36151D52E0BC000B5C26 /* MyApp.m */,
-				916E36191D52E0BC000B5C26 /* WebSite.h */,
-				916E361A1D52E0BC000B5C26 /* WebSite.m */,
-				916E360A1D52E0BC000B5C26 /* AppDelegate.h */,
-				916E360B1D52E0BC000B5C26 /* AppDelegate.m */,
+				91A248131D59CA190071B833 /* Controller */,
+				91A248151D5B1A1D0071B833 /* View */,
+				91A248121D59CA040071B833 /* Model */,
+				91A248141D59CA500071B833 /* Util */,
 				916E35D51D519340000B5C26 /* Frameworks */,
 				916E35AA1D5188F2000B5C26 /* Supporting Files */,
 			);
@@ -145,6 +125,8 @@
 		916E35AA1D5188F2000B5C26 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				916E360A1D52E0BC000B5C26 /* AppDelegate.h */,
+				916E360B1D52E0BC000B5C26 /* AppDelegate.m */,
 				916E360E1D52E0BC000B5C26 /* Assets.xcassets */,
 				916E36121D52E0BC000B5C26 /* Info.plist */,
 				916E36161D52E0BC000B5C26 /* MyAppList.plist */,
@@ -185,6 +167,56 @@
 			);
 			name = WebViewProgressApis;
 			path = PersonalFavorites;
+			sourceTree = "<group>";
+		};
+		91A248121D59CA040071B833 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				916E36141D52E0BC000B5C26 /* MyApp.h */,
+				916E36151D52E0BC000B5C26 /* MyApp.m */,
+				916E36191D52E0BC000B5C26 /* WebSite.h */,
+				916E361A1D52E0BC000B5C26 /* WebSite.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		91A248131D59CA190071B833 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				916E36241D52E0BC000B5C26 /* WebsiteViewController.h */,
+				916E36251D52E0BC000B5C26 /* WebsiteViewController.m */,
+				916E361E1D52E0BC000B5C26 /* WebsiteEditorViewController.h */,
+				916E361F1D52E0BC000B5C26 /* WebsiteEditorViewController.m */,
+				916E361B1D52E0BC000B5C26 /* WebsiteAddViewController.h */,
+				916E361C1D52E0BC000B5C26 /* WebsiteAddViewController.m */,
+				916E36201D52E0BC000B5C26 /* WebsiteModifyViewController.h */,
+				916E36211D52E0BC000B5C26 /* WebsiteModifyViewController.m */,
+				916E36221D52E0BC000B5C26 /* WebsiteShowViewController.h */,
+				916E36231D52E0BC000B5C26 /* WebsiteShowViewController.m */,
+				918A20821D52EAEF00955F6F /* MyAppCollectionViewController.h */,
+				918A20831D52EAEF00955F6F /* MyAppCollectionViewController.m */,
+				916E360C1D52E0BC000B5C26 /* AppListTableViewController.h */,
+				916E360D1D52E0BC000B5C26 /* AppListTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		91A248141D59CA500071B833 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				916E36101D52E0BC000B5C26 /* DataOperator.h */,
+				916E36111D52E0BC000B5C26 /* DataOperator.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		91A248151D5B1A1D0071B833 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				918A20851D52FF9100955F6F /* MyAppCollectionCell.h */,
+				918A20861D52FF9100955F6F /* MyAppCollectionCell.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +297,7 @@
 				918A20841D52EAEF00955F6F /* MyAppCollectionViewController.m in Sources */,
 				916E36361D52E0BC000B5C26 /* WebsiteViewController.m in Sources */,
 				916E36311D52E0BC000B5C26 /* WebsiteAddViewController.m in Sources */,
-				918A20871D52FF9100955F6F /* collectionCell.m in Sources */,
+				918A20871D52FF9100955F6F /* MyAppCollectionCell.m in Sources */,
 				916E35EF1D51DC80000B5C26 /* LMAppController.m in Sources */,
 				916E362C1D52E0BC000B5C26 /* main.m in Sources */,
 				916E35F51D51F1F7000B5C26 /* NJKWebViewProgress.m in Sources */,

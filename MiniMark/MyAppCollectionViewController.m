@@ -9,7 +9,7 @@
 #import "MyAppCollectionViewController.h"
 #import "DataOperator.h"
 #import "MyApp.h"
-#import "collectionCell.h"
+#import "MyAppCollectionCell.h"
 #import "LMAppController.h"
 #import "AppListTableViewController.h"
 
@@ -45,7 +45,7 @@ NS_ENUM(NSInteger, CellState) {
 
 @implementation MyAppCollectionViewController
 
-static NSString * const reuseIdentifier = @"collectionCell";
+static NSString * const reuseIdentifier = @"MyAppCollectionCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -107,7 +107,7 @@ static NSString * const reuseIdentifier = @"collectionCell";
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    collectionCell *cell = (collectionCell *)[collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+    MyAppCollectionCell *cell = (MyAppCollectionCell *)[collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     
     MyApp *myapp = self.appArray[indexPath.row];
     UIImage *icon = [UIImage _applicationIconImageForBundleIdentifier:myapp.bundleIdentifier format:10 scale:2.0];
@@ -207,7 +207,7 @@ static NSString * const reuseIdentifier = @"collectionCell";
 }
 
 - (IBAction)doDeleteBtn:(id)sender {
-    collectionCell *cell = (collectionCell *)[sender superview];//获取cell
+    MyAppCollectionCell *cell = (MyAppCollectionCell *)[sender superview];//获取cell
     NSIndexPath *indexpath = [self.myCollectionView indexPathForCell:cell];//获取cell对应的indexpath;
     MyApp *myapp = self.appArray[indexpath.row];
     //删除cell
