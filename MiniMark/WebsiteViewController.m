@@ -129,13 +129,16 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    WebsiteShowViewController *controller = (WebsiteShowViewController *)[self.storyboard instantiateViewControllerWithIdentifier:@"websiteShowIdentifier"];
-    
+//    WebsiteShowViewController *controller = (WebsiteShowViewController *)[self.storyboard instantiateViewControllerWithIdentifier:@"websiteShowIdentifier"];
+    WebsiteShowViewController *controller = [[WebsiteShowViewController alloc]init];
     //根据分区号，获取对应的存放容器
     NSMutableArray *itemArray = [self.webSiteList objectAtIndex:indexPath.section];
     controller.website = itemArray[indexPath.row];
-    [self.navigationController pushViewController:controller animated:YES];
+//    [self.navigationController pushViewController:controller animated:YES];
+    [controller setModalTransitionStyle:UIModalTransitionStyleCoverVertical];
+    [controller setModalPresentationStyle:UIModalPresentationFullScreen];
+    [self presentViewController:controller animated:YES completion:nil];
+    
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {

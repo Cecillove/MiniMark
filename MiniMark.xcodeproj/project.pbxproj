@@ -10,11 +10,8 @@
 		916E35D41D519334000B5C26 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 916E35D31D519334000B5C26 /* libsqlite3.tbd */; };
 		916E35EE1D51DC80000B5C26 /* LMApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E35EB1D51DC80000B5C26 /* LMApp.m */; };
 		916E35EF1D51DC80000B5C26 /* LMAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E35ED1D51DC80000B5C26 /* LMAppController.m */; };
-		916E35F51D51F1F7000B5C26 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E35F21D51F1F7000B5C26 /* NJKWebViewProgress.m */; };
-		916E35F61D51F1F7000B5C26 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E35F41D51F1F7000B5C26 /* NJKWebViewProgressView.m */; };
 		916E36261D52E0BC000B5C26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E360B1D52E0BC000B5C26 /* AppDelegate.m */; };
 		916E36271D52E0BC000B5C26 /* AppListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E360D1D52E0BC000B5C26 /* AppListTableViewController.m */; };
-		916E36281D52E0BC000B5C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916E360E1D52E0BC000B5C26 /* Assets.xcassets */; };
 		916E362A1D52E0BC000B5C26 /* DataOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36111D52E0BC000B5C26 /* DataOperator.m */; };
 		916E362B1D52E0BC000B5C26 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 916E36121D52E0BC000B5C26 /* Info.plist */; };
 		916E362C1D52E0BC000B5C26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36131D52E0BC000B5C26 /* main.m */; };
@@ -29,8 +26,25 @@
 		916E36361D52E0BC000B5C26 /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916E36251D52E0BC000B5C26 /* WebsiteViewController.m */; };
 		916E36391D52E16D000B5C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916E36371D52E16D000B5C26 /* LaunchScreen.storyboard */; };
 		916E363C1D52E180000B5C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916E363A1D52E180000B5C26 /* Main.storyboard */; };
+		917B72AB1D5C1505001A0A08 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72911D5C1505001A0A08 /* appicon.png */; };
+		917B72AC1D5C1505001A0A08 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72921D5C1505001A0A08 /* 58.png */; };
+		917B72AD1D5C1505001A0A08 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72931D5C1505001A0A08 /* 80.png */; };
+		917B72AE1D5C1505001A0A08 /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72941D5C1505001A0A08 /* 87.png */; };
+		917B72AF1D5C1505001A0A08 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72951D5C1505001A0A08 /* 120.png */; };
+		917B72B01D5C1505001A0A08 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72961D5C1505001A0A08 /* 180.png */; };
+		917B72B21D5C1505001A0A08 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72981D5C1505001A0A08 /* heart.png */; };
+		917B72B91D5C1505001A0A08 /* plus_60*60.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B729F1D5C1505001A0A08 /* plus_60*60.png */; };
+		917B72BA1D5C1505001A0A08 /* plus_120*120.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72A01D5C1505001A0A08 /* plus_120*120.png */; };
+		917B72BB1D5C1505001A0A08 /* plus_180*180.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72A11D5C1505001A0A08 /* plus_180*180.png */; };
+		917B72BC1D5C1505001A0A08 /* Remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72A21D5C1505001A0A08 /* Remove.png */; };
+		917B72BD1D5C1505001A0A08 /* trash_60*60.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72A31D5C1505001A0A08 /* trash_60*60.png */; };
+		917B72BE1D5C1505001A0A08 /* trash_120*120.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72A41D5C1505001A0A08 /* trash_120*120.png */; };
+		917B72BF1D5C1505001A0A08 /* trash_180*180.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72A51D5C1505001A0A08 /* trash_180*180.png */; };
+		917B72CA1D5C1989001A0A08 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 917B72C91D5C1989001A0A08 /* back.png */; };
+		917B72CC1D5C1AB1001A0A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917B72CB1D5C1AB1001A0A08 /* Assets.xcassets */; };
 		918A20841D52EAEF00955F6F /* MyAppCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A20831D52EAEF00955F6F /* MyAppCollectionViewController.m */; };
 		918A20871D52FF9100955F6F /* MyAppCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A20861D52FF9100955F6F /* MyAppCollectionCell.m */; };
+		E838D2EC480631A5B0BCFA7B /* libPods-MiniMark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C021E901AF9BC4CC0D34783D /* libPods-MiniMark.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,15 +54,10 @@
 		916E35EB1D51DC80000B5C26 /* LMApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMApp.m; path = LaunchServicesApis/LMApp.m; sourceTree = "<group>"; };
 		916E35EC1D51DC80000B5C26 /* LMAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMAppController.h; path = LaunchServicesApis/LMAppController.h; sourceTree = "<group>"; };
 		916E35ED1D51DC80000B5C26 /* LMAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMAppController.m; path = LaunchServicesApis/LMAppController.m; sourceTree = "<group>"; };
-		916E35F11D51F1F7000B5C26 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgress.h; path = WebViewProgressApis/NJKWebViewProgress.h; sourceTree = SOURCE_ROOT; };
-		916E35F21D51F1F7000B5C26 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgress.m; path = WebViewProgressApis/NJKWebViewProgress.m; sourceTree = SOURCE_ROOT; };
-		916E35F31D51F1F7000B5C26 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = WebViewProgressApis/NJKWebViewProgressView.h; sourceTree = SOURCE_ROOT; };
-		916E35F41D51F1F7000B5C26 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = WebViewProgressApis/NJKWebViewProgressView.m; sourceTree = SOURCE_ROOT; };
 		916E360A1D52E0BC000B5C26 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MiniMark/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		916E360B1D52E0BC000B5C26 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MiniMark/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		916E360C1D52E0BC000B5C26 /* AppListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppListTableViewController.h; path = MiniMark/AppListTableViewController.h; sourceTree = SOURCE_ROOT; };
 		916E360D1D52E0BC000B5C26 /* AppListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppListTableViewController.m; path = MiniMark/AppListTableViewController.m; sourceTree = SOURCE_ROOT; };
-		916E360E1D52E0BC000B5C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MiniMark/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		916E36101D52E0BC000B5C26 /* DataOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataOperator.h; path = MiniMark/DataOperator.h; sourceTree = SOURCE_ROOT; };
 		916E36111D52E0BC000B5C26 /* DataOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataOperator.m; path = MiniMark/DataOperator.m; sourceTree = SOURCE_ROOT; };
 		916E36121D52E0BC000B5C26 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MiniMark/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -71,10 +80,29 @@
 		916E36251D52E0BC000B5C26 /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebsiteViewController.m; path = MiniMark/WebsiteViewController.m; sourceTree = SOURCE_ROOT; };
 		916E36381D52E16D000B5C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MiniMark/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		916E363B1D52E180000B5C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MiniMark/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		917B72911D5C1505001A0A08 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon.png; path = Images/appicon.png; sourceTree = SOURCE_ROOT; };
+		917B72921D5C1505001A0A08 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 58.png; path = Images/58.png; sourceTree = SOURCE_ROOT; };
+		917B72931D5C1505001A0A08 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 80.png; path = Images/80.png; sourceTree = SOURCE_ROOT; };
+		917B72941D5C1505001A0A08 /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 87.png; path = Images/87.png; sourceTree = SOURCE_ROOT; };
+		917B72951D5C1505001A0A08 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 120.png; path = Images/120.png; sourceTree = SOURCE_ROOT; };
+		917B72961D5C1505001A0A08 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 180.png; path = Images/180.png; sourceTree = SOURCE_ROOT; };
+		917B72981D5C1505001A0A08 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart.png; path = Images/heart.png; sourceTree = SOURCE_ROOT; };
+		917B729F1D5C1505001A0A08 /* plus_60*60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus_60*60.png"; path = "Images/plus_60*60.png"; sourceTree = SOURCE_ROOT; };
+		917B72A01D5C1505001A0A08 /* plus_120*120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus_120*120.png"; path = "Images/plus_120*120.png"; sourceTree = SOURCE_ROOT; };
+		917B72A11D5C1505001A0A08 /* plus_180*180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus_180*180.png"; path = "Images/plus_180*180.png"; sourceTree = SOURCE_ROOT; };
+		917B72A21D5C1505001A0A08 /* Remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Remove.png; path = Images/Remove.png; sourceTree = SOURCE_ROOT; };
+		917B72A31D5C1505001A0A08 /* trash_60*60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trash_60*60.png"; path = "Images/trash_60*60.png"; sourceTree = SOURCE_ROOT; };
+		917B72A41D5C1505001A0A08 /* trash_120*120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trash_120*120.png"; path = "Images/trash_120*120.png"; sourceTree = SOURCE_ROOT; };
+		917B72A51D5C1505001A0A08 /* trash_180*180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trash_180*180.png"; path = "Images/trash_180*180.png"; sourceTree = SOURCE_ROOT; };
+		917B72C91D5C1989001A0A08 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = Images/back.png; sourceTree = SOURCE_ROOT; };
+		917B72CB1D5C1AB1001A0A08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MiniMark/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		918A20821D52EAEF00955F6F /* MyAppCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppCollectionViewController.h; path = MiniMark/MyAppCollectionViewController.h; sourceTree = SOURCE_ROOT; };
 		918A20831D52EAEF00955F6F /* MyAppCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAppCollectionViewController.m; path = MiniMark/MyAppCollectionViewController.m; sourceTree = SOURCE_ROOT; };
 		918A20851D52FF9100955F6F /* MyAppCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAppCollectionCell.h; path = MiniMark/MyAppCollectionCell.h; sourceTree = SOURCE_ROOT; };
 		918A20861D52FF9100955F6F /* MyAppCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAppCollectionCell.m; path = MiniMark/MyAppCollectionCell.m; sourceTree = SOURCE_ROOT; };
+		B51D5467B8E3CE3F927A0AE3 /* Pods-MiniMark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniMark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiniMark/Pods-MiniMark.debug.xcconfig"; sourceTree = "<group>"; };
+		B8DA89645BB5B3DFC15E1730 /* Pods-MiniMark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniMark.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiniMark/Pods-MiniMark.release.xcconfig"; sourceTree = "<group>"; };
+		C021E901AF9BC4CC0D34783D /* libPods-MiniMark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniMark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,19 +111,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				916E35D41D519334000B5C26 /* libsqlite3.tbd in Frameworks */,
+				E838D2EC480631A5B0BCFA7B /* libPods-MiniMark.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89946DE1276185F63A4FD9F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B51D5467B8E3CE3F927A0AE3 /* Pods-MiniMark.debug.xcconfig */,
+				B8DA89645BB5B3DFC15E1730 /* Pods-MiniMark.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		916E359E1D5188F2000B5C26 = {
 			isa = PBXGroup;
 			children = (
 				916E35A91D5188F2000B5C26 /* MiniMark */,
-				916E35E91D51DC42000B5C26 /* LaunchServicesApis */,
-				916E35F01D51F131000B5C26 /* WebViewProgressApis */,
 				916E35A81D5188F2000B5C26 /* Products */,
+				89946DE1276185F63A4FD9F4 /* Pods */,
+				F4526E3B020436862909EB5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +153,7 @@
 				91A248151D5B1A1D0071B833 /* View */,
 				91A248121D59CA040071B833 /* Model */,
 				91A248141D59CA500071B833 /* Util */,
+				916E35E91D51DC42000B5C26 /* LaunchServicesApis */,
 				916E35D51D519340000B5C26 /* Frameworks */,
 				916E35AA1D5188F2000B5C26 /* Supporting Files */,
 			);
@@ -125,9 +164,10 @@
 		916E35AA1D5188F2000B5C26 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				917B72CB1D5C1AB1001A0A08 /* Assets.xcassets */,
+				917B72901D5C14F3001A0A08 /* Images */,
 				916E360A1D52E0BC000B5C26 /* AppDelegate.h */,
 				916E360B1D52E0BC000B5C26 /* AppDelegate.m */,
-				916E360E1D52E0BC000B5C26 /* Assets.xcassets */,
 				916E36121D52E0BC000B5C26 /* Info.plist */,
 				916E36161D52E0BC000B5C26 /* MyAppList.plist */,
 				916E361D1D52E0BC000B5C26 /* WebSiteCategory.plist */,
@@ -155,18 +195,29 @@
 				916E35ED1D51DC80000B5C26 /* LMAppController.m */,
 			);
 			name = LaunchServicesApis;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		916E35F01D51F131000B5C26 /* WebViewProgressApis */ = {
+		917B72901D5C14F3001A0A08 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				916E35F11D51F1F7000B5C26 /* NJKWebViewProgress.h */,
-				916E35F21D51F1F7000B5C26 /* NJKWebViewProgress.m */,
-				916E35F31D51F1F7000B5C26 /* NJKWebViewProgressView.h */,
-				916E35F41D51F1F7000B5C26 /* NJKWebViewProgressView.m */,
+				917B72C91D5C1989001A0A08 /* back.png */,
+				917B72911D5C1505001A0A08 /* appicon.png */,
+				917B72921D5C1505001A0A08 /* 58.png */,
+				917B72931D5C1505001A0A08 /* 80.png */,
+				917B72941D5C1505001A0A08 /* 87.png */,
+				917B72951D5C1505001A0A08 /* 120.png */,
+				917B72961D5C1505001A0A08 /* 180.png */,
+				917B72981D5C1505001A0A08 /* heart.png */,
+				917B729F1D5C1505001A0A08 /* plus_60*60.png */,
+				917B72A01D5C1505001A0A08 /* plus_120*120.png */,
+				917B72A11D5C1505001A0A08 /* plus_180*180.png */,
+				917B72A21D5C1505001A0A08 /* Remove.png */,
+				917B72A31D5C1505001A0A08 /* trash_60*60.png */,
+				917B72A41D5C1505001A0A08 /* trash_120*120.png */,
+				917B72A51D5C1505001A0A08 /* trash_180*180.png */,
 			);
-			name = WebViewProgressApis;
-			path = PersonalFavorites;
+			name = Images;
 			sourceTree = "<group>";
 		};
 		91A248121D59CA040071B833 /* Model */ = {
@@ -219,6 +270,14 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		F4526E3B020436862909EB5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C021E901AF9BC4CC0D34783D /* libPods-MiniMark.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -226,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 916E35C11D5188F2000B5C26 /* Build configuration list for PBXNativeTarget "MiniMark" */;
 			buildPhases = (
+				19D213A65EF8B690D5C6325B /* [CP] Check Pods Manifest.lock */,
 				916E35A31D5188F2000B5C26 /* Sources */,
 				916E35A41D5188F2000B5C26 /* Frameworks */,
 				916E35A51D5188F2000B5C26 /* Resources */,
+				ED87A4FB9D3828B122A631BA /* [CP] Embed Pods Frameworks */,
+				F4B32E71B77416E4E98686DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,16 +339,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				917B72AE1D5C1505001A0A08 /* 87.png in Resources */,
+				917B72BF1D5C1505001A0A08 /* trash_180*180.png in Resources */,
+				917B72AF1D5C1505001A0A08 /* 120.png in Resources */,
 				916E362B1D52E0BC000B5C26 /* Info.plist in Resources */,
+				917B72CC1D5C1AB1001A0A08 /* Assets.xcassets in Resources */,
+				917B72B91D5C1505001A0A08 /* plus_60*60.png in Resources */,
+				917B72BB1D5C1505001A0A08 /* plus_180*180.png in Resources */,
+				917B72BD1D5C1505001A0A08 /* trash_60*60.png in Resources */,
+				917B72B01D5C1505001A0A08 /* 180.png in Resources */,
+				917B72B21D5C1505001A0A08 /* heart.png in Resources */,
+				917B72AB1D5C1505001A0A08 /* appicon.png in Resources */,
 				916E36321D52E0BC000B5C26 /* WebSiteCategory.plist in Resources */,
 				916E362E1D52E0BC000B5C26 /* MyAppList.plist in Resources */,
-				916E36281D52E0BC000B5C26 /* Assets.xcassets in Resources */,
 				916E363C1D52E180000B5C26 /* Main.storyboard in Resources */,
+				917B72AD1D5C1505001A0A08 /* 80.png in Resources */,
+				917B72BA1D5C1505001A0A08 /* plus_120*120.png in Resources */,
+				917B72BE1D5C1505001A0A08 /* trash_120*120.png in Resources */,
+				917B72CA1D5C1989001A0A08 /* back.png in Resources */,
+				917B72BC1D5C1505001A0A08 /* Remove.png in Resources */,
+				917B72AC1D5C1505001A0A08 /* 58.png in Resources */,
 				916E36391D52E16D000B5C26 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19D213A65EF8B690D5C6325B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED87A4FB9D3828B122A631BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiniMark/Pods-MiniMark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4B32E71B77416E4E98686DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiniMark/Pods-MiniMark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		916E35A31D5188F2000B5C26 /* Sources */ = {
@@ -300,7 +425,6 @@
 				918A20871D52FF9100955F6F /* MyAppCollectionCell.m in Sources */,
 				916E35EF1D51DC80000B5C26 /* LMAppController.m in Sources */,
 				916E362C1D52E0BC000B5C26 /* main.m in Sources */,
-				916E35F51D51F1F7000B5C26 /* NJKWebViewProgress.m in Sources */,
 				916E35EE1D51DC80000B5C26 /* LMApp.m in Sources */,
 				916E36261D52E0BC000B5C26 /* AppDelegate.m in Sources */,
 				916E36341D52E0BC000B5C26 /* WebsiteModifyViewController.m in Sources */,
@@ -308,7 +432,6 @@
 				916E36301D52E0BC000B5C26 /* WebSite.m in Sources */,
 				916E36351D52E0BC000B5C26 /* WebsiteShowViewController.m in Sources */,
 				916E362A1D52E0BC000B5C26 /* DataOperator.m in Sources */,
-				916E35F61D51F1F7000B5C26 /* NJKWebViewProgressView.m in Sources */,
 				916E36331D52E0BC000B5C26 /* WebsiteEditorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +542,7 @@
 		};
 		916E35C21D5188F2000B5C26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51D5467B8E3CE3F927A0AE3 /* Pods-MiniMark.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -433,6 +557,7 @@
 		};
 		916E35C31D5188F2000B5C26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8DA89645BB5B3DFC15E1730 /* Pods-MiniMark.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

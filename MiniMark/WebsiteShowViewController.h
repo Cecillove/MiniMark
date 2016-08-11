@@ -7,12 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NJKWebViewProgressView.h"
-#import "NJKWebViewProgress.h"
+#import <WebKit/WebKit.h>
 
 @class WebSite;
 
-@interface WebsiteShowViewController : UIViewController <UIWebViewDelegate, NJKWebViewProgressDelegate>
+@interface WebsiteShowViewController : UIViewController <WKUIDelegate, WKNavigationDelegate>
 
 @property (nonatomic,strong) WebSite *website;
 

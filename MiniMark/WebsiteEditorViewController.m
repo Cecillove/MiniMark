@@ -103,8 +103,8 @@
             if (cell == nil) {
                 cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:personalIdentifier];
                 cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-                cell.backgroundColor = [UIColor groupTableViewBackgroundColor];
-                cell.textLabel.textColor = [UIColor redColor];
+//                cell.backgroundColor = [UIColor groupTableViewBackgroundColor];
+//                cell.textLabel.textColor = [UIColor redColor];
             }
         }
         case 1:// 公司
@@ -113,8 +113,8 @@
             if (cell == nil) {
                 cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:companyIdentifier];
                 cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-                cell.backgroundColor = [UIColor groupTableViewBackgroundColor];
-                cell.textLabel.textColor = [UIColor redColor];
+//                cell.backgroundColor = [UIColor groupTableViewBackgroundColor];
+//                cell.textLabel.textColor = [UIColor redColor];
             }
             break;
         }
